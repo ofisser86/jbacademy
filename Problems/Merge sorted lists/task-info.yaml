@@ -1,0 +1,45 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def merge_arrays(a, b):
+        # "c" will contain the result of merging arrays "a" and "b"
+        c = []
+        while ...:
+            if ...:
+                # removing the first element from "a" and adding it to "c"
+                c.append(a[0])
+                a.pop(0)
+            else:
+                # removing the first element from "b" and adding it to "c"
+                c.append(b[0])
+                b.pop(0)
+        return c
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10658
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 5. Runtime error
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    1 2 3
+    2 3 4 4
+    Correct output:
+    1 2 2 3 3 4 4
+
+    Your code output:
+
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 22, in <module>
+        print(*merge_arrays(arr1, arr2))
+      File "jailed_code", line 5, in merge_arrays
+        if b and a[0]:
+    IndexError: list index out of range
+  time: Fri, 11 Sep 2020 08:10:47 UTC
+record: -1
