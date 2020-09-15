@@ -5,5 +5,9 @@ files:
   text: 'class Painting:'
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/6684
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/6684">JetBrains
+    Academy</a></html>
+  time: Tue, 15 Sep 2020 08:37:01 UTC
 record: -1
